@@ -3,5 +3,5 @@ RUN apt update
 WORKDIR /app
 RUN apt install apache2 -y
 RUN useradd s8mike
-RUN mkdir /mike
+RUN mkdir /s8mike
 LABEL maintainer s8mike@yahoo.com
