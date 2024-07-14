@@ -3,3 +3,4 @@ RUN apt update
 RUN apt install apache2 -y
 RUN useradd s8mike
 RUN mkdir /mike
+LABEL maintainer s8mike@yahoo.com
